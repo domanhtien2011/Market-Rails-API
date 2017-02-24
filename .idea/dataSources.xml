@@ -23,5 +23,13 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="Rails market_place_api: test" uuid="2045547c-f491-4ba8-aff8-6815262c73b1">
+      <driver-ref>e39f5d69-4c1b-41e9-bee3-98224ef4cab3</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/test.sqlite3</jdbc-url>
+    </data-source>
   </component>
 </project>
