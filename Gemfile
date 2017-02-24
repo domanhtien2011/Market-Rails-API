@@ -6,11 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 group :test do
-  gem "rspec-rails", "~> 2.14"
-  gem "factory_girl_rails"
+  gem 'rspec-rails'
+  gem 'factory_girl_rails'
   gem 'factory_girl'
   gem 'ffaker'
-  gem "shoulda-matchers"
+  gem 'shoulda-matchers'
 end
 
 gem 'devise'

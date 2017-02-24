@@ -24,7 +24,6 @@
 /log/*.log
 /tmp
 
-# Extra files to ignore
 doc/
 *.swp
 *~
@@ -32,3 +31,5 @@ doc/
 
 .idea/
 .idea/workspace.xml
+.idea/market_place_api.iml
+Gemfile.lock
